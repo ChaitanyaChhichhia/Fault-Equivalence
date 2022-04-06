@@ -1,0 +1,10 @@
+NODE s_a_0 s_a_1
+-----------------
+1    False  True
+2    False  True
+3    False  True
+4    False  True
+5    False  True
+6    True  False
+7    True  False
+8    True  True
