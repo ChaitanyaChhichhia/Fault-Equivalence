@@ -1,0 +1,9 @@
+node con typ fanout fanin fin1 fin2
+1 gat inpt 1 0 0 0
+2 gat inpt 2 0 0 0
+3 gat inpt 1 0 0 0
+4 fan from 2 0 0 0
+5 fan from 2 0 0 0
+6 gat and 1 2 1 4
+7 gat and 1 2 5 3
+8 gat or 0 2 6 7
