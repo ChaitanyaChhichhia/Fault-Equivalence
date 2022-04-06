@@ -2,9 +2,9 @@
 Fault Equivalence
 Pseudo code
 	Make a list of Primary inputs
-o	(PIs are the ones whose ‘type’ is ‘input’)
+o	  (PIs are the ones whose ‘type’ is ‘input’)
 	Make a list of Primary Outputs 
-o	(POs are the ones whose ‘fanout’ is zero)
+o	  (POs are the ones whose ‘fanout’ is zero)
 	Make a dictionary of faults at each node and assign s_a_0, s_a_1 to all nodes
 	Call the fault_equi(node) function for each output node in a for loop
 
