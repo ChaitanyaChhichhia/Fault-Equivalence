@@ -18,3 +18,11 @@ Python code to generate the reduce fault list of a given ISCAS 7 column format n
 *	Call the function for fin1 for not gate.
 *	Call the function for branch, if the node is a stem.
 
+### Modifications : 
+In case of branches, the stems r visited twice as both the 
+branch call the func for stem. Due to this the entire path from stem to PI
+is covered twice. In case of multiple branches, this path will be visited
+multiple times
+### Solution:
+maintain a list to check whether the node is already visited or not
+MODIFICATION done
