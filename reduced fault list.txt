@@ -1,10 +1,19 @@
 NODE s_a_0 s_a_1
 -----------------
 1    False  True
+3    True  True
+6    False  True
 2    False  True
-3    False  True
-4    False  True
-5    False  True
-6    True  False
-7    True  False
-8    True  True
+7    False  True
+8    False  True
+9    False  True
+10    False  True
+11    True  True
+14    False  True
+15    False  True
+16    True  True
+19    False  True
+20    False  True
+21    False  True
+22    True  True
+23    True  True
